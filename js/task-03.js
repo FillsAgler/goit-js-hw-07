@@ -19,3 +19,5 @@ const imageGallery = (images) => {
   const elements = images.map(({url, alt}) => (`<li><img src="${url}"> alt="${alt}"</li>`).join(''));
   return listGallery.insertAdjacentHTML('afterbegin', elements);
 }
+
+imageGallery = (images)
