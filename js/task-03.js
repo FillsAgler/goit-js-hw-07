@@ -20,4 +20,4 @@ const imageGallery = (images) => {
   return listGallery.insertAdjacentHTML('afterbegin', elements);
 }
 
-imageGallery = (images)
+imageGallery(images)
